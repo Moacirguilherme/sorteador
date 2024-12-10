@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div>
+        <img class="devsorteio" src="./assets/devsorteio.png" alt="devsorteio">
+    </div>
+    <div class="container">
+        <div>
+        <h1> Sortear um Número </h1>
+               </div>
+
+    </div>
+    <div class="input">
+        <label for="min" class="p">Entre</label>
+        <input type="number" id="min" placeholder="Ex: 1" class="input-min">
+        <label for="min" class="p">E</label>
+        <input type="number" id="max" placeholder="Ex: 100" class="input-max">
+    </div>
+        <button class="generate-number">SORTEAR AGORA!</button>
+        <p id="resultado"></p>
+    </div>
+
+
+
+    <div class="result-modal hidden">
+        <h2>Resultado do Sorteio:</h2>
+        <p class="result-congrats">🎉 Parabéns ao ganhador! 🎉</p>
+        <p class="result-number">74</p>
+        <button class="close-modal">Fechar</button>
+      </div>
+      
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
